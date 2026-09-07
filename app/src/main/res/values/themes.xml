@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - dark, clean, modern (section 3 of the spec) -->
+    <style name="Theme.BeckyBridge" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/becky_primary</item>
+        <item name="colorPrimaryVariant">@color/becky_primary_variant</item>
+        <item name="colorOnPrimary">@color/becky_on_primary</item>
+        <item name="colorSecondary">@color/becky_accent</item>
+        <item name="colorSecondaryVariant">@color/becky_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/becky_background</item>
+        <item name="colorSurface">@color/becky_surface</item>
+        <item name="colorOnBackground">@color/becky_text_primary</item>
+        <item name="colorOnSurface">@color/becky_text_primary</item>
+        <item name="android:statusBarColor">@color/becky_background</item>
+        <item name="android:navigationBarColor">@color/becky_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>

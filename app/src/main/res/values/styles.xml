@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BeckyButton.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/becky_primary</item>
+        <item name="android:textColor">@color/becky_on_primary</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="BeckyButton.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/becky_divider</item>
+        <item name="android:textColor">@color/becky_text_primary</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="BeckyText" parent="android:Widget.TextView" />
+
+    <style name="BeckyText.Title">
+        <item name="android:textColor">@color/becky_text_primary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BeckyText.Subtitle">
+        <item name="android:textColor">@color/becky_text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BeckyText.SectionLabel">
+        <item name="android:textColor">@color/becky_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="BeckyText.Body">
+        <item name="android:textColor">@color/becky_text_primary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

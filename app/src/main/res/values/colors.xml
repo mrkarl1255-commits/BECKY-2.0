@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BECKY BRIDGE - Dark, clean color palette -->
+    <color name="becky_background">#0E1116</color>
+    <color name="becky_surface">#161B22</color>
+    <color name="becky_surface_variant">#1F2630</color>
+    <color name="becky_primary">#00D1B2</color>
+    <color name="becky_primary_variant">#00A896</color>
+    <color name="becky_on_primary">#0E1116</color>
+    <color name="becky_accent">#5B8DEF</color>
+    <color name="becky_text_primary">#E6EDF3</color>
+    <color name="becky_text_secondary">#8B949E</color>
+    <color name="becky_success">#3FB950</color>
+    <color name="becky_warning">#D29922</color>
+    <color name="becky_error">#F85149</color>
+    <color name="becky_divider">#2D333B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

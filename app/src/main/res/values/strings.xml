@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BECKY BRIDGE</string>
+
+    <!-- Main screen -->
+    <string name="main_title">BECKY BRIDGE</string>
+    <string name="main_subtitle">Puente de comunicación Teléfono ↔ Reloj</string>
+    <string name="status_waiting">Esperando conexión</string>
+    <string name="status_connected">Conectado a %1$s</string>
+    <string name="status_connecting">Conectando…</string>
+    <string name="status_disconnected">Desconectado</string>
+    <string name="status_reconnecting">Reconectando…</string>
+    <string name="status_error">Error de conexión</string>
+
+    <string name="btn_scan">BUSCAR DISPOSITIVOS</string>
+    <string name="btn_devices">DISPOSITIVOS</string>
+    <string name="btn_connection">CONEXIÓN</string>
+    <string name="btn_diagnostics">DIAGNÓSTICO</string>
+    <string name="btn_logs">REGISTROS</string>
+    <string name="btn_voice">HABLAR CON BECKY</string>
+    <string name="btn_connect">Conectar</string>
+    <string name="btn_disconnect">Desconectar</string>
+    <string name="btn_reconnect">Reconectar</string>
+    <string name="btn_refresh">Actualizar</string>
+
+    <!-- Bluetooth off dialog -->
+    <string name="bt_disabled_title">Bluetooth desactivado</string>
+    <string name="bt_disabled_message">BECKY BRIDGE necesita que actives el Bluetooth para poder buscar y conectarse a tu reloj inteligente.</string>
+    <string name="bt_disabled_action">Activar Bluetooth</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale_title">Permisos necesarios</string>
+    <string name="permission_rationale_message">BECKY BRIDGE necesita permisos de Bluetooth para buscar, conectar y comunicarse con tu reloj inteligente. No se solicitan permisos innecesarios.</string>
+    <string name="permission_grant">Conceder permisos</string>
+    <string name="permission_denied">Permisos denegados. No es posible buscar ni conectar dispositivos.</string>
+
+    <!-- Devices screen -->
+    <string name="devices_title">Dispositivos encontrados</string>
+    <string name="devices_empty">Aún no se ha encontrado ningún dispositivo. Pulsa \"Buscar dispositivos\" en la pantalla principal.</string>
+    <string name="device_connecting">Conectando…</string>
+    <string name="device_connected">Conectado</string>
+    <string name="device_error">Error de conexión</string>
+
+    <!-- Connection / services screen -->
+    <string name="connection_title">Conexión y servicios BLE</string>
+    <string name="connection_no_device">No hay ningún dispositivo conectado</string>
+    <string name="services_title">Servicios GATT</string>
+    <string name="characteristics_title">Características</string>
+    <string name="action_read">Leer</string>
+    <string name="action_write">Escribir</string>
+    <string name="action_notify">Notificar</string>
+
+    <!-- Diagnostics screen -->
+    <string name="diagnostics_title">Diagnóstico</string>
+    <string name="diag_bluetooth">Bluetooth</string>
+    <string name="diag_permissions">Permisos</string>
+    <string name="diag_device">Dispositivo</string>
+    <string name="diag_mac">MAC</string>
+    <string name="diag_rssi">RSSI</string>
+    <string name="diag_connection">Conexión</string>
+    <string name="diag_gatt">GATT</string>
+    <string name="diag_services">Servicios</string>
+    <string name="diag_characteristics">Características</string>
+    <string name="diag_last_message">Último mensaje</string>
+    <string name="diag_last_error">Último error</string>
+    <string name="diag_export">Exportar registro</string>
+    <string name="diag_enabled">ACTIVADO</string>
+    <string name="diag_disabled">DESACTIVADO</string>
+    <string name="diag_granted">CONCEDIDOS</string>
+    <string name="diag_denied">DENEGADOS</string>
+    <string name="diag_none">N/D</string>
+
+    <!-- Diagnostics screen: BECKY command test panel (Phase 2) -->
+    <string name="diag_commands_title">Pruebas de comandos BECKY</string>
+    <string name="diag_commands_subtitle">Envía un comando de prueba directamente al reloj conectado y muestra la respuesta.</string>
+    <string name="diag_btn_get_time">Probar GET_TIME</string>
+    <string name="diag_btn_get_heart_rate">Probar GET_HEART_RATE</string>
+    <string name="diag_command_result_idle">Sin ejecutar todavía</string>
+    <string name="diag_command_running">Enviando \'%1$s\'…</string>
+    <string name="diag_command_success">%1$s → ÉXITO: %2$s</string>
+    <string name="diag_command_not_connected">%1$s → SIN CONEXIÓN: no hay un reloj conectado y listo</string>
+    <string name="diag_command_timeout">%1$s → TIEMPO AGOTADO: el reloj no respondió a tiempo</string>
+    <string name="diag_command_failed">%1$s → ERROR: %2$s</string>
+
+    <!-- Logs screen -->
+    <string name="logs_title">Registros</string>
+    <string name="logs_clear">Limpiar</string>
+    <string name="logs_export">Exportar</string>
+    <string name="logs_empty">Aún no hay registros.</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Estado de BECKY BRIDGE</string>
+
+    <!-- Voice / Assistant screen (Phase 3) -->
+    <string name="voice_title">Hablar con BECKY</string>
+    <string name="voice_subtitle">Pulsa el botón y habla. BECKY entiende lenguaje natural, no solo comandos fijos.</string>
+    <string name="voice_btn_talk">HABLAR</string>
+    <string name="voice_state_idle">En espera</string>
+    <string name="voice_state_waiting_wakeword">Esperando \"Hey Becky\"…</string>
+    <string name="voice_state_listening">Escuchando…</string>
+    <string name="voice_state_processing">Pensando…</string>
+    <string name="voice_state_speaking">Respondiendo…</string>
+    <string name="voice_state_error">Error: %1$s</string>
+    <string name="voice_permission_denied">Se necesita permiso de micrófono para hablar con BECKY.</string>
+</resources>
